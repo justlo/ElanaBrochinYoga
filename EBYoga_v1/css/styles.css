@@ -1,0 +1,110 @@
+body {
+  padding-top: 50px;
+  font-size: 16px;
+  color: #ff9999;
+  background-color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-name h1{
+  color: #ff9999;
+}
+.navbar-name a:hover, .navbar-name a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #ff9999;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+}
+#nav-list a:hover {
+  background: transparent;
+  text-decoration: underline;
+  color: #ffcc00;
+}
+#nav-list .active a{
+  color: #666666
+}
+hr {
+  margin: 0;
+}
+/*ALL PAGES*/
+#main-content {
+  margin-top: 30px;
+}
+#main-content h1{
+  text-align: center;
+  font-size: 4em;
+}
+/**HOME PAGE**/
+#home img {
+  margin-top: 40px;
+}
+/**ABOUT PAGE**/
+.about_contents {
+  margin-top: 40px;
+}
+.about_contents p {
+  color: #666666;
+  text-align: center;
+  margin: 0px 40px 40px 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+/**CLASSES PAGE**/
+#classes div {
+  color: #666666;
+}
+.classes_contents {
+  margin-top: 60px;
+}
+.classes_date p{
+  padding-right: 20px;
+  text-align: right;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+.classes_location p{
+  text-align: left;
+}
+.classes_location a{
+  color: black;
+}
+.classes_location a:hover{
+  color: #ffcc00;
+  text-decoration: underline;
+}
+#map-image {
+  margin-top: 75px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*CONTACT PAGE*/
+#contact div {
+  color: #666666;
+}
+.contact_contents {
+  margin-top: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
+.contact_contents a {
+  color: black;
+  text-decoration: none;
+}
+.contact_contents a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
