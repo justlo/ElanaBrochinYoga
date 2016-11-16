@@ -13,10 +13,10 @@ body {
   border: 0;
 }
 
-.navbar-name h1{
+.navbar-header h1{
   color: #ff9999;
 }
-.navbar-name a:hover, .navbar-name a:focus {
+.navbar-header a:hover, .navbar-header a:focus {
   text-decoration: none;
 }
 
@@ -37,6 +37,17 @@ body {
 }
 hr {
   margin: 0;
+}
+/*button.navbar-toggle, .icon-bar {
+  border: 1px solid black;
+
+}*/
+.icon-bar{
+  border: 1px solid #666666;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
 }
 /*ALL PAGES*/
 #main-content {
