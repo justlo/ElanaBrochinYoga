@@ -95,15 +95,18 @@ hr {
 .classes_contents {
   margin-top: 60px;
 }
-.classes_date p{
-  padding-right: 20px;
-  text-align: right;
-  font-weight: 900;
-  font-size: 1.2em;
+@media (min-width: 376px) {
+  .classes_date p{
+    padding-right: 20px;
+    text-align: right;
+    font-weight: 900;
+    font-size: 1.2em;
+  }
+  .classes_location p{
+    text-align: left;
+  }
 }
-.classes_location p{
-  text-align: left;
-}
+
 .classes_location a{
   color: black;
 }
