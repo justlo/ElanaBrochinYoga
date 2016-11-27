@@ -1,40 +1,25 @@
-LunchCheckController.$inject = ['$scope'];
-  function LunchCheckController($scope) {
-    $scope.inputText = "";
-    $scope.outputMessage = "";
-    //var myString = $scope.inputText;
-    //console.log(myString)
+// Get the modal
+var modal = document.getElementById('myModal');
 
-    $scope.clickOutput = function () {
-        $scope.outputMessage = splitFunction($scope.inputText);
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
 
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
     }
-
-
-  function splitFunction(string) {
-    if (string == ""){
-      return "Please enter data first"
-    }
-    var re = /\s*,\s*/;
-    var totalStrings = string.split(re)
-    console.log(totalStrings);
-    console.log(totalStrings.length);
-    for (var i = 0; i < totalStrings.length; i++) {
-      //console.log("i: " + i + "stringEl: " + totalStrings[i])
-      if (totalStrings[i] == "") {
-        return "You have an empty item!"
-      }
-      //console.log(i)
-    }
-
-    if (totalStrings.length <= 3){
-      return "Enjoy!";
-    }
-    else if (totalStrings.length > 3) {
-      return "Too much!";
-    }
-
-  }
-};
-
-})();
+}
