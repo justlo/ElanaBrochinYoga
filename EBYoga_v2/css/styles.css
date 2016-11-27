@@ -49,6 +49,12 @@ hr {
   clear: both;
   margin-top: -40px;
 }
+/*FOOTER*/
+.panel-footer {
+  background-color: white;
+  /*padding-top: 20px;*/
+}
+
 /*ALL PAGES*/
 #main-content {
   margin-top: 30px;
