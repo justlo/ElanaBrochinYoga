@@ -22,6 +22,7 @@ body {
 
 #nav-list a {
   color: #ff9999;
+  font-weight: bolder;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -161,11 +162,19 @@ hr {
   padding-left: 15px;
   color: #ff9999;
 }
-.form-layout {
-  margin-top: 5px;
-}
 #form-template {
   margin-bottom: 60px;
+  /*padding-left: 15%;
+  padding-right: 15%;*/
+}
+@media (min-width: 769px) {
+ #form-template {
+   padding-left: 15%;
+   padding-right: 15%;
+ }
+}
+.form-layout {
+  margin-top: 5px;
 }
 input[type=text]:focus, textarea[type=text]:focus {
   box-shadow: 0 0 5px #ccc;
