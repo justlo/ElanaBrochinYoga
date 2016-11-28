@@ -16,6 +16,11 @@ body {
 .navbar-header h1{
   color: #ff9999;
 }
+.navbar-header span {
+  font-family: 'Courgette', cursive;
+
+  /*font-size: 1.2em;*/
+}
 .navbar-header a:hover, .navbar-header a:focus {
   text-decoration: none;
 }
@@ -185,7 +190,8 @@ input[type=text]:focus, textarea[type=text]:focus {
   text-align: center;
 }
 #button-div button {
-  color: #ff9999;
+  color: white;
+  background-color: #ff9999;
 }
 #button-div button:active, #button-div button:focus {
   outline-color: #666666;
