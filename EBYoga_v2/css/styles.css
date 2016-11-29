@@ -1,7 +1,7 @@
 body {
   padding-top: 50px;
   font-size: 16px;
-  color: #ff9999;
+  color: #ff8093; /*#ff9999;*/
   background-color: white;
   font-family: 'Quicksand', sans-serif;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 .navbar-header h1{
-  color: #ff9999;
+  color: #ff8093;
 }
 .navbar-header span {
   font-family: 'Courgette', cursive;
@@ -26,7 +26,7 @@ body {
 }
 
 #nav-list a {
-  color: #ff9999;
+  color: #ff8093;
   font-weight: bolder;
   text-align: center;
   margin-top: 20px;
@@ -46,7 +46,7 @@ hr {
 }
 
 .icon-bar{
-  border: 1px solid #ff9999;
+  border: 1px solid #ff8093;
 }
 /*.icon-bar .active{
   border: 1px solid #666666;
@@ -68,6 +68,7 @@ hr {
 #main-content h1{
   text-align: center;
   font-size: 4em;
+  color: #ff8093;
 }
 /**HOME PAGE**/
 #home img {
@@ -165,7 +166,7 @@ hr {
 .name-line {
   margin-top: 15px;
   padding-left: 15px;
-  color: #ff9999;
+  color: #ff8093;
 }
 #form-template {
   margin-bottom: 60px;
@@ -191,7 +192,7 @@ input[type=text]:focus, textarea[type=text]:focus {
 }
 #button-div button {
   color: white;
-  background-color: #ff9999;
+  background-color: #ff8093;
 }
 #button-div button:active, #button-div button:focus {
   outline-color: #666666;
@@ -219,7 +220,7 @@ input[type=text]:focus, textarea[type=text]:focus {
     width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal-content h2 {
-  color: #ff9999;
+  color: #ff8093;
 }
 /* The Close Button */
 .close {
