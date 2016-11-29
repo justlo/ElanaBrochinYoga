@@ -12,14 +12,8 @@ body {
   border-radius: 0;
   border: 0;
 }
-
 .navbar-header h1{
   color: #ff8093;
-}
-.navbar-header span {
-  font-family: 'Courgette', cursive;
-
-  /*font-size: 1.2em;*/
 }
 .navbar-header a:hover, .navbar-header a:focus {
   text-decoration: none;
